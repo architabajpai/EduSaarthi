@@ -1,4 +1,4 @@
-# 🎓 EduSaarthi
+# EduSaarthi
 
 > A modern web platform designed to simplify and enhance the learning experience by connecting students with structured educational resources and smart features.
 
@@ -7,26 +7,26 @@
 
 Built with Next.js and TypeScript, EduSaarthi focuses on scalability, performance, and user-friendly design to create an exceptional educational experience.
 
-## ✨ Features
+## Features
 
-- 📚 **Centralized Resources** - Access all your educational materials in one place
-- 👩‍🎓 **Student-Friendly Interface** - Intuitive UI and seamless navigation
-- ⚡ **High Performance** - Lightning-fast with Next.js and optimized architecture
-- 🗄️ **Robust Database** - Powered by Prisma ORM for reliable data management
-- 🔐 **Secure Configuration** - Environment-based security settings
-- 🎨 **Responsive Design** - Beautiful UI built with Tailwind CSS, works on all devices
+- **Centralized Resources** - Access all your educational materials in one place
+- **Student-Friendly Interface** - Intuitive UI and seamless navigation
+- **High Performance** - Lightning-fast with Next.js and optimized architecture
+- **Robust Database** - Powered by Prisma ORM for reliable data management
+- **Secure Configuration** - Environment-based security settings
+- **Responsive Design** - Beautiful UI built with Tailwind CSS, works on all devices
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Technologies |
 |----------|-------------|
 | **Frontend** | Next.js, React, TypeScript |
 | **Styling** | Tailwind CSS |
 | **Backend** | Node.js |
-| **Database** | Prisma ORM |
+| **Database** | MongoDB |
 | **Tools** | ESLint, PostCSS |
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 EduSaarthi/
@@ -36,15 +36,13 @@ EduSaarthi/
 ├── src/               # Main application source code
 │   ├── app/          # Next.js app directory
 │   ├── lib/          # Utility functions and helpers
-│   └── styles/       # Global styles
-├── .env              # Environment variables (not in repo)
-├── .env.example      # Example environment variables
+├── .env              # Environment variables
 ├── package.json      # Dependencies and scripts
 ├── tsconfig.json     # TypeScript configuration
 └── README.md         # Project documentation
 ```
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 
@@ -107,7 +105,7 @@ yarn dev
 
 Open your browser at [http://localhost:3000](http://localhost:3000)
 
-## 📜 Available Scripts
+## Available Scripts
 
 ```bash
 npm run dev          # Start development server
@@ -117,18 +115,18 @@ npm run lint         # Run ESLint
 npm run prisma:studio # Open Prisma Studio
 ```
 
-## 🧠 Future Enhancements
+## Future Enhancements
 
-- [ ] 🤖 AI-powered learning recommendations
-- [ ] 🧑‍🏫 Mentor-student interaction features
-- [ ] 📊 Analytics dashboard for tracking progress
-- [ ] 🔐 Advanced authentication & role-based access control
-- [ ] 📱 Enhanced mobile responsiveness
-- [ ] 🌐 Multi-language support
-- [ ] 📝 Interactive quizzes and assessments
-- [ ] 💬 Real-time chat and discussion forums
+- [ ] AI-powered learning recommendations
+- [ ] Mentor-student interaction features
+- [ ] Analytics dashboard for tracking progress
+- [ ] Advanced authentication & role-based access control
+- [ ] Enhanced mobile responsiveness
+- [ ] Multi-language support
+- [ ] Interactive quizzes and assessments
+- [ ] Real-time chat and discussion forums
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -140,25 +138,24 @@ Contributions are what make the open-source community such an amazing place to l
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👩‍💻 Author
+## Author
 
 **Archita Bajpai**
 
-- GitHub: [@architabajpai](https://github.com/architabajpai)
-- LinkedIn: [Add your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: [your.email@example.com](mailto:your.email@example.com)
+- GitHub: (https://github.com/architabajpai)
+- LinkedIn: (https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/archita-bajpai-b373952a1/)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Next.js team for the amazing framework
 - Prisma for the excellent ORM
 - All contributors who help improve EduSaarthi
 
-## ⭐ Support
+## Support
 
 If you find this project helpful, please consider:
 
@@ -169,5 +166,5 @@ If you find this project helpful, please consider:
 ---
 
 <div align="center">
-Made with ❤️ by Archita Bajpai
+Made by Archita Bajpai
 </div>
