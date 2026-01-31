@@ -12,7 +12,6 @@ Built with Next.js and TypeScript, EduSaarthi focuses on scalability, performanc
 - **Centralized Resources** - Access all your educational materials in one place
 - **Student-Friendly Interface** - Intuitive UI and seamless navigation
 - **High Performance** - Lightning-fast with Next.js and optimized architecture
-- **Robust Database** - Powered by Prisma ORM for reliable data management
 - **Secure Configuration** - Environment-based security settings
 - **Responsive Design** - Beautiful UI built with Tailwind CSS, works on all devices
 
@@ -31,7 +30,7 @@ Built with Next.js and TypeScript, EduSaarthi focuses on scalability, performanc
 ```
 EduSaarthi/
 ├── components/        # Reusable UI components
-├── prisma/            # Database schema & configuration
+├── MongoDB/            # Database schema & configuration
 ├── public/            # Static assets (images, fonts, etc.)
 ├── src/               # Main application source code
 │   ├── app/          # Next.js app directory
@@ -50,14 +49,14 @@ EduSaarthi/
 - npm or yarn
 - A database (PostgreSQL, MySQL, or SQLite)
 
-### 1️⃣ Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/architabajpai/EduSaarthi.git
 cd EduSaarthi
 ```
 
-### 2️⃣ Install dependencies
+### Install dependencies
 
 ```bash
 npm install
@@ -65,7 +64,7 @@ npm install
 yarn install
 ```
 
-### 3️⃣ Configure environment variables
+### Configure environment variables
 
 Create a `.env` file in the root directory:
 
@@ -83,19 +82,9 @@ DATABASE_URL="your_database_connection_string"
 NEXT_PUBLIC_APP_URL="http://localhost:3000"
 
 # Add other environment variables as needed
-```
 
-### 4️⃣ Set up the database
 
-```bash
-# Generate Prisma client
-npx prisma generate
-
-# Run migrations
-npx prisma migrate dev
-```
-
-### 5️⃣ Run the development server
+### Run the development server
 
 ```bash
 npm run dev
@@ -112,7 +101,6 @@ npm run dev          # Start development server
 npm run build        # Build for production
 npm run start        # Start production server
 npm run lint         # Run ESLint
-npm run prisma:studio # Open Prisma Studio
 ```
 
 ## Future Enhancements
