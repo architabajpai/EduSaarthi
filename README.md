@@ -147,7 +147,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Archita Bajpai**
 
 - GitHub: (https://github.com/architabajpai)
-- LinkedIn: (https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/archita-bajpai-b373952a1/)
+- LinkedIn: (https://www.linkedin.com/in/archita-bajpai-b373952a1/)
 
 ## Acknowledgments
 
