@@ -4,7 +4,7 @@ import bcrypt from 'bcryptjs';
 
 async function seedLoginData() {
   // 🔧 PASTE YOUR MONGODB_URI HERE DIRECTLY
-  const uri = "mongodb+srv://granth:private1@trial.pkcvcwp.mongodb.net/";
+  const uri = process.env.MONGODB_URI;
   
   console.log('🔗 Connecting to:', uri.startsWith('mongodb') ? '✅ Valid' : '❌ Fix URI');
   
